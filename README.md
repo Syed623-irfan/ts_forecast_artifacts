@@ -46,24 +46,24 @@ Methods Used
 Evaluation Metrics
 Models are compared using:
 
-1.MAE (Mean Absolute Error)
-2.RMSE (Root Mean Squared Error)
-3.MAPE (Mean Absolute Percentage Error)
-4.R² Score
-5.Error curves
+* MAE (Mean Absolute Error)
+* RMSE (Root Mean Squared Error)
+* MAPE (Mean Absolute Percentage Error)
+* R² Score
+* Error curves
 
 Forecast visualizations
 
 Project Output Files
 File	Description
-1.report.txt	Written summary of model results and conclusions
-2.summary.csv	Metrics for each model across 5/10/20-step horizons
-3.transformers_states.pth	Saved Transformer model weights
-4.plots/	Forecast and training graphs
+* report.txt	Written summary of model results and conclusions
+* summary.csv	Metrics for each model across 5/10/20-step horizons
+* transformers_states.pth	Saved Transformer model weights
+* plots/	Forecast and training graphs
 
 Final Deliverables
 
-1.Working end-to-end forecasting pipeline
-2.Comparison of classical vs. deep learning models
-3.Saved deep learning model
-4.Insightful evaluation and conclusion
+* Working end-to-end forecasting pipeline
+* Comparison of classical vs. deep learning models
+* Saved deep learning model
+* Insightful evaluation and conclusion
