@@ -1,4 +1,5 @@
 Objectives
+
 1.Acquire or generate a long, complex time series (≥1000 data points) containing:
 * Non-stationarity
 * High-order seasonality
