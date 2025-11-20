@@ -1,0 +1,91 @@
+Generated series length: 2000
+Splits train/val/test: 1200 400 400
+H5: train 1028 val 396 test 396
+H10: train 1023 val 391 test 391
+H20: train 1013 val 381 test 381
+
+Fitting SARIMAX (constrained maxiter)...
+SARIMAX fitted.
+Device: cpu
+
+Training Transformer for H 5
+H5 E1/20 train=1.200335 val=1.193682
+H5 E5/20 train=1.007874 val=1.226400
+H5 E10/20 train=1.099036 val=1.149271
+H5 E15/20 train=1.073486 val=1.278176
+H5 E20/20 train=1.047055 val=1.299393
+Done H5: preds shape (396, 5)
+
+Training Transformer for H 10
+H10 E1/20 train=1.279954 val=1.629540
+H10 E5/20 train=1.031656 val=1.323399
+H10 E10/20 train=1.027512 val=1.255059
+H10 E15/20 train=1.021235 val=1.244684
+H10 E20/20 train=1.013847 val=1.203944
+Done H10: preds shape (391, 10)
+
+Training Transformer for H 20
+H20 E1/20 train=1.126484 val=1.182128
+H20 E5/20 train=1.023320 val=1.215106
+H20 E10/20 train=0.965224 val=1.055178
+H20 E15/20 train=0.942508 val=1.032534
+H20 E20/20 train=0.831861 val=0.954215
+Done H20: preds shape (381, 20)
+
+Evaluation report:
+         rmse_baseline  mae_baseline  rmse_transformer  mae_transformer
+horizon
+5             1.600784      1.274639          2.135808         1.713999
+10            1.607853      1.282126          2.065175         1.661492
+20            1.618595      1.294593          1.862526         1.489720
+Done H20: preds shape (381, 20)
+
+Evaluation report:
+         rmse_baseline  mae_baseline  rmse_transformer  mae_transformer
+horizon
+5             1.600784      1.274639          2.135808         1.713999
+10            1.607853      1.282126          2.065175         1.661492
+20            1.618595      1.294593          1.862526         1.489720
+
+Evaluation report:
+         rmse_baseline  mae_baseline  rmse_transformer  mae_transformer
+horizon
+5             1.600784      1.274639          2.135808         1.713999
+10            1.607853      1.282126          2.065175         1.661492
+20            1.618595      1.294593          1.862526         1.489720
+Evaluation report:
+         rmse_baseline  mae_baseline  rmse_transformer  mae_transformer
+horizon
+5             1.600784      1.274639          2.135808         1.713999
+10            1.607853      1.282126          2.065175         1.661492
+20            1.618595      1.294593          1.862526         1.489720
+         rmse_baseline  mae_baseline  rmse_transformer  mae_transformer
+horizon
+5             1.600784      1.274639          2.135808         1.713999
+10            1.607853      1.282126          2.065175         1.661492
+20            1.618595      1.294593          1.862526         1.489720
+horizon
+5             1.600784      1.274639          2.135808         1.713999
+10            1.607853      1.282126          2.065175         1.661492
+20            1.618595      1.294593          1.862526         1.489720
+5             1.600784      1.274639          2.135808         1.713999
+10            1.607853      1.282126          2.065175         1.661492
+20            1.618595      1.294593          1.862526         1.489720
+
+Per-step RMSE for h=20: [2.0717974 2.0397758 2.0178545 1.9537795 1.8673232 1.7669816 1.6616054
+10            1.607853      1.282126          2.065175         1.661492
+20            1.618595      1.294593          1.862526         1.489720
+
+Per-step RMSE for h=20: [2.0717974 2.0397758 2.0178545 1.9537795 1.8673232 1.7669816 1.6616054
+ 1.5904257 1.5406777 1.5289923 1.5731896 1.6922106 1.7981216 1.8818816
+20            1.618595      1.294593          1.862526         1.489720
+
+Per-step RMSE for h=20: [2.0717974 2.0397758 2.0178545 1.9537795 1.8673232 1.7669816 1.6616054
+ 1.5904257 1.5406777 1.5289923 1.5731896 1.6922106 1.7981216 1.8818816
+
+Per-step RMSE for h=20: [2.0717974 2.0397758 2.0178545 1.9537795 1.8673232 1.7669816 1.6616054
+ 1.5904257 1.5406777 1.5289923 1.5731896 1.6922106 1.7981216 1.8818816
+ 1.5904257 1.5406777 1.5289923 1.5731896 1.6922106 1.7981216 1.8818816
+ 1.9612828 2.013052  2.019994  2.0300028 2.0299528 2.0230634]
+ 1.9612828 2.013052  2.019994  2.0300028 2.0299528 2.0230634]
+Artifacts saved to User:/path/ts_forecast_artifacts
